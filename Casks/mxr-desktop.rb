@@ -1,6 +1,6 @@
 cask "mxr-desktop" do
-  version "0.6.164"
-  sha256 "78e48d6c7991fd83d1b6a7ca254524922eb21affc8a6d3d56de44d84806294b4"
+  version "0.6.165"
+  sha256 "fcc1f92dae3e9785849d66a380f05aea4d47b1bcc64c1687ee7d175436b70581"
 
   url "https://github.com/planetaryescape/mxr/releases/download/v#{version}/mxr-desktop-#{version}-aarch64.dmg"
   name "mxr"
