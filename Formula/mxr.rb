@@ -1,7 +1,7 @@
 class Mxr < Formula
   desc "Local-first terminal email client"
   homepage "https://github.com/planetaryescape/mxr"
-  version "0.6.200"
+  version "0.6.201"
   license "MIT OR Apache-2.0"
 
   on_macos do
@@ -9,7 +9,7 @@ class Mxr < Formula
 
     on_arm do
       url "https://github.com/planetaryescape/mxr/releases/download/v#{version}/mxr-v#{version}-macos-aarch64.tar.gz"
-      sha256 "6c86e6ee6561c89228529585e33a6de5171f5d378128ec28817865d2363d6f1d"
+      sha256 "eddb4c109eb0414bb9d4cf01c9eb4161a7b06375848a30a3d9e7f4d55bb6d925"
     end
   end
 
@@ -18,7 +18,7 @@ class Mxr < Formula
 
     on_intel do
       url "https://github.com/planetaryescape/mxr/releases/download/v#{version}/mxr-v#{version}-linux-x86_64.tar.gz"
-      sha256 "f7be972836a35b070f1bbf47edc94a0e7f24dd4b6d1ca60a5b19fd80ac541aa5"
+      sha256 "176355e8fcf95fe6138cd486a8a6c289b9f0d3194962b36200cb466ef300fea5"
     end
   end
 
